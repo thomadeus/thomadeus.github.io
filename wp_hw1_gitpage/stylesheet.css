@@ -1,0 +1,64 @@
+/*background image */
+body {
+    background-image: url("./background-site.jpg");
+}
+
+h1 {
+    color: #3b3a30; /* blackish */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table.zebra {
+    border-collapse: collapse;
+    width: 300px;
+    
+    
+}
+
+table.zebra td {
+    text-align: center;
+}
+
+table.zebra tr:nth-child(odd) {
+    background-color: #f0efef;
+    font-family: cursive;
+}
+
+table.zebra tr:nth-child(even) {
+    background-color: #c0ded9;
+}
+
+/* unclicked link color */
+a:link {
+    color: #87bdd8;
+}
+
+/* link color after its been visited */
+a:visited {
+    color: #b0aac0;
+}
+
+/* link color when hovered over */ 
+a:hover {
+    color: #622568;
+    text-decoration: underline;
+}
+
+/* link when left mouse held over */
+a:active {
+    color: #ff7b25
+}
+
+ul.uleft {
+    width: 10%;
+    float: left;
+}
+
+ol.oleft {
+    width: 10%;
+    float: left;
+}
