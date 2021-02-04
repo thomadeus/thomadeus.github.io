@@ -1,22 +1,47 @@
 /*background image */
 body {
-    background-image: url("./background-site.jpg");
-}
-
-h1 {
-    color: #3b3a30; /* blackish */
+    background-image: url("./ufo.png");
+    font-family: sans-serif, Helvetica;
+    color: #ebdc3e;
     text-align: center;
 }
 
-h2 {
-    text-align: center;
+h1#opening {
+    color: #dbcd2d;
+    font-style: italic;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+
+
+p#quote {
+    font-style: italic;
+    font-size: large;
+    color: #f0efef;
+}
+
+
+.redbold {
+    color: red;
+    font-weight: bold;
 }
 
 table.zebra {
-    border-collapse: collapse;
-    width: 300px;
-    
-    
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+table.zebra th {
+    font-family: Helvetica;
+    color:  #3b3a30;
 }
 
 table.zebra td {
@@ -24,22 +49,22 @@ table.zebra td {
 }
 
 table.zebra tr:nth-child(odd) {
-    background-color: #f0efef;
-    font-family: cursive;
+    background-color:#c0ded9;
 }
 
 table.zebra tr:nth-child(even) {
-    background-color: #c0ded9;
+    background-color: #b2b2b2;
 }
 
 /* unclicked link color */
 a:link {
-    color: #87bdd8;
+    color: #0000EE;
 }
 
 /* link color after its been visited */
 a:visited {
-    color: #b0aac0;
+    color: #551A8B;
+    text-decoration: underline;
 }
 
 /* link color when hovered over */ 
@@ -50,15 +75,53 @@ a:hover {
 
 /* link when left mouse held over */
 a:active {
-    color: #ff7b25
+    color: #ff7b25;
+    text-decoration: underline;
 }
 
-ul.uleft {
-    width: 10%;
+.box-wrap {
+    display: inline-block;
+}
+.leftbox {
+    width: 200px;
     float: left;
+    border: 2px solid #dbcd2d;
+    border-radius: 25px;
 }
 
-ol.oleft {
-    width: 10%;
-    float: left;
+.leftbox ul li  {
+    text-align: left;
+    color: #f0efef;
 }
+
+.leftbox ol li {
+    text-align: left;
+    color: #f0efef;
+}
+
+.shiftleft {
+    text-align: left;
+}
+
+ul.shiftleft li {
+    text-align: left;
+    color: #f0efef;
+}
+
+ol.shiftleft li {
+    color: #f0efef;
+}
+
+
+
+/*Borrowing snippet from tutorial*/
+.shadebox {
+    margin: 40px;
+    border-radius: 15px;
+	background-color: rgb(68,68,68); /* Needed for IEs */
+	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}
+
+

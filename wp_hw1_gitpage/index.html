@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--Webpro Spring 20201-->
+    <!--Author: Tommy Lim-->
+    <!--Date: 02/03/2021-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tommy Lim GitHub Page</title>
+    <meta name="author" content="Tommy Lim">
+    <title>Tommy Lim GitHub Page WIP</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>The basics...</h1>
-    <a href ="http://www.cs.gsu.edu/" target="_blank">GSU Computer Sceince Department Homepage</a>
-    <!-- PLACE PHOTO IMG HERE -->
-    <h2>Photo will be above this Line... TOMMY LIM </h2>
-
+    <h1 id="opening" class="shiftleft">Made in 1999!</h1>
+    <div>
+        <!-- PLACE PHOTO IMG HERE -->
+        <img src ="headshot.png" alt="headshot">
+        <h3>Tommy Lim</h3>
+    </br>
+    </div>
+    
     <!--Assignments zebra table here-->
     <div>
         <table class="zebra">
             <tr>
                 <th>Assignments</th>
-                <th>Projects</th>
+                <th><span class="redbold">Project</span>s</th>
             </tr>
             <tr>
                 <td><a href="?">HW01 Home Page</a></td>
-                <td><a href="./dummypage.html">Project 1 HTML CSS</a></td>
+                <td><a href="./dummypage.html"><span class="redbold">Project</span> 1 HTML CSS</a></td>
             </tr>
             <tr>
                 <td><a href="./dummypage.html">HW02 CSS</a></td>
-                <td><a href="./dummypage.html">Project 2 HTML, CSS, PHP</a></td>
+                <td><a href="./dummypage.html"><span class="redbold">Project</span> 2 HTML, CSS, PHP</a></td>
             </tr>
             <tr>
                 <td><a href="./dummypage.html">HW03 PHP</a></td>
-                <td><a href="./dummypage.html">Project 3 JAVA Script</a></td>
+                <td><a href="./dummypage.html"><span class="redbold">Project</span> 3 JAVA Script</a></td>
             </tr>
             <tr>
                 <td><a href="./dummypage.html">HW04 JAVA Script</a></td>
                 <td><a href="./dummypage.html">Final: All Frameworks</a></td>
             </tr>
-                <td><a href="./dummypage.html">HW04 React</a></td>
+                <td><a href="./dummypage.html">HW05 React</a></td>
                 <td></td>
             </tr>
             <tr>
                 <td><a href="./dummypage.html">HW06 PHP, Mysql</a></td>
                 <td></td>
             </tr>
-
         </table>
+        </br>
     </div>
-    <!-- list of hobbies and list of something else-->
-    <div class="randinfo">
-        <div class="listbox">
-            <h2>Interests</h2>
-            <ul class="uleft">
-                <li><a href="https://www.gamersnexus.net/">PC Hardware</a></li>
-                <li>Motorcycles</li>
-                <li><a href="https://www.reddit.com/r/AutoDetailing/">Auto detailing</a></li>
-                <li><a href="https://www.investopedia.com/">Stock market</a></li>  
-            </ul>
-        </div>
-       <div class="listbox">
-           <h2>Current reads</h2>
-            <ol class="oleft">
-                <li><a href="https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692"><i>Deep Work</i> by Cal Newport</a></li>
-                <li><i>Algorithms to Live By</i> by Brian Christan and Tomy Griffiths</li>
-            </ol>
-       </div>
-    </div>
+
     <!-- nested list for education(heading req, and bulleted list of schools)
     Job hoistory (heading Required) numbered list -->
     <div>
-
+        <div class="box-wrap">
+            <ul>
+                <li><h2 class="shiftleft">Education</h2></li>
+                <ul class="shiftleft">
+                    <li>Georgia State University</li>
+                    <li>Northview High School</li>
+                </ul>
+                <li><h2 class="shiftleft">Job History</h2></li>
+                <ol class="shiftleft">
+                    <li>QuikTrip</li>
+                    <li>Fry's Electronics</li>
+                </ol>
+            </ul>
+        </div>
     </div>
 
+    <div class="box-wrap">
+    </br>
+        <!-- list of hobbies and list of something else-->
+        <div class="leftbox">
+            <h3>Interests</h3>
+            <ul>     
+                <li><a href="https://www.gamersnexus.net/" target="_blank"><span class="redbold">Computer</span> Hardware</a></li>
+                <li>Motorcycles</li>
+                <li><a href="https://www.reddit.com/r/AutoDetailing/"target="_blank">Auto detailing</a></li>
+                <li><a href="https://www.investopedia.com/" target="_blank">Stock market</a></li>  
+            </ul>
+        </div>
+
+        <div class="leftbox">
+            <h3>Top Destinations</h3>
+            <ol>
+                <li><a href="https://www.immigration.govt.nz/">New Zealand</a></li>
+                <li><a href="https://www.canada.ca/en/services/immigration-citizenship.html">Canada</a></li>
+                <li>Germany</li>
+                <li>Singapore</li>
+                <li>Australia</li>
+            </ol>
+        </div>
+    </div>  
+    
     <!-- favorite quote e.g poem or line from a movie -->
-    <div>
-
+    <div class="shadebox">
+        <div class="content">
+            <p id="quote">"You shut your mouth when you're talking to me!" -Wedding Crashers (2005)</p>
+        </div>
     </div>
+
+    <p><a href="http://www.cs.gsu.edu/" target="_blank"><span class="redbold">
+        GSU Computer Science</span> Department Homepage</a></p>
 </body>
 </html>
