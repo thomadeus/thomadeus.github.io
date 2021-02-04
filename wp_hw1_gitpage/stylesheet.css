@@ -9,6 +9,7 @@ body {
 h1#opening {
     color: #dbcd2d;
     font-style: italic;
+    text-align: left;
 }
 
 img {
@@ -18,14 +19,11 @@ img {
     width: 150px;
 }
 
-
-
 p#quote {
     font-style: italic;
     font-size: large;
     color: #f0efef;
 }
-
 
 .redbold {
     color: red;
@@ -36,7 +34,7 @@ table.zebra {
     border-collapse: separate;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 380px;
 }
 
 table.zebra th {
@@ -82,6 +80,21 @@ a:active {
 .box-wrap {
     display: inline-block;
 }
+
+.box-wrap h2{
+    text-align: left;
+}
+
+.box-wrap ul ul li {
+    text-align: left;
+    color:#f0efef;
+}
+
+.box-wrap ul ol li {
+    text-align: left;
+    color:#f0efef;
+}
+
 .leftbox {
     width: 200px;
     float: left;
@@ -99,29 +112,13 @@ a:active {
     color: #f0efef;
 }
 
-.shiftleft {
-    text-align: left;
-}
-
-ul.shiftleft li {
-    text-align: left;
-    color: #f0efef;
-}
-
-ol.shiftleft li {
-    color: #f0efef;
-}
-
-
-
 /*Borrowing snippet from tutorial*/
 .shadebox {
     margin: 40px;
     border-radius: 15px;
-	background-color: rgb(68,68,68); /* Needed for IEs */
-	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	background-color: rgb(68,68,68); 
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    /* Ie &Mozilla */
+    -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
 }
-
-
