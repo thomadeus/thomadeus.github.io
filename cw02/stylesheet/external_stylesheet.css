@@ -1,0 +1,57 @@
+
+.h1ex { color: red; margin-left: 2cm; }
+.h2ex { color: red; margin-left: 4cm;}
+.pex { text-indent: 2cm; color: darkred; margin-left: 6cm;}
+
+.centext {
+    text-align: center;
+}
+
+.divbox {
+    background-color: snow;
+    border-style: groove;
+    max-height: 390px;
+    width: 660px;
+    
+}
+
+#divleft {
+    float: left;
+    background-color: Azure;
+  
+}
+#divright {
+    float: right;
+    background-color: beige;
+}
+
+
+span {
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.container {
+    display: inline-flex;
+
+}
+
+.item {
+    border-style: groove;
+    border-color: black;
+    max-width: 480px;
+    background-color: snow;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+.ex6 {
+    width: 50%;
+    border: 5px outset darkblue;
+    background-color: lightskyblue;
+    padding-right: 15px;
+}
+
+dt {
+    font-weight: bold;
+}

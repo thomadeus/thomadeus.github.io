@@ -1,0 +1,28 @@
+body {
+    font-size: 14pt;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: chocolate;
+}
+#art_co { color: moccasin; }
+#year_co { color: ivory}
+
+.fwc_nk {
+    font-weight: normal;
+    color: khaki;
+}
+
+.fsz { font-size: 12pt; }
+
+.verse {
+    font-family: 'Trebuchet MS';
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.chorus {
+    font-style: italic;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}

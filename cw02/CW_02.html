@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Webpro Spring 2021-->
+    <!--Author: Tommy Lim-->
+    <!--Date: 02/05/2021-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CW 02 - #3 Working with CSS Part 1</title>
+    <link href="./external_stylesheet.css" rel="stylesheet" type="text/css">
+    <style>
+        .h1style { color: red; margin-left: 2cm; }
+        .h2style {   color: red;  margin-left: 4cm; }
+        .pstyle {text-indent: 2cm;color: darkred;margin-left: 6cm; }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Exercise 1</h1>
+    <div class="item">
+        <p style="text-indent: 2cm; color: red;">
+            This paragraph has been formatted using the in-line style command.
+        </p>
+        <p>This paragraph has not been formatted using the in-line style command.</p>
+    </div>  
+</div>  
+
+<div style="display: inline-block;">
+    <h1> Exercise 2 </h1>
+    <div id="divleft" class="divbox">
+        <h2 class ="centext">Corrected Version</h2>
+        <pre>
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt; University of Georgia State Example on embedded style sheets&lt;/title&gt;
+            &lt;style&gt;
+            Body 
+            {
+            font-family: "Times New Roman<span>"</span>;
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: justify;
+            background: ivory; color: red;
+            }
+            P {
+            text-indent:2cm;
+            }
+            h1,h2,h3{ color: red; margin<span >-</span>left: 2cm<span>;</span>
+            }
+            &lt;/style&gt;
+            &lt;/head&gt;
+        </pre>
+    </div>
+
+    <div id="divright" class="divbox">
+        <h2 class ="centext">Error Version</h2>
+        <pre>
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt; University of Georgia State Example on embedded style sheets&lt;/title&gt;
+            &lt;style&gt;
+            Body 
+            {
+            font-family : "times new roman;
+            margin-left : 20%;
+            margin-right: 20%;
+            text-align : justify;
+            background : ivory; color : red;
+            }
+            P {
+            text-indent : 2cm;
+            }
+            h1,h2,h3{ color: red ; marginleft:2cm
+            }
+            &lt;/style&gt;
+            &lt;/head&gt;
+        </pre>
+    </div>
+</div>
+
+<div>
+    <h1>Exercise 3</h1>
+    <!-- Inline version-->
+    <div class="container">
+        <div class="item">
+            <h1 style="color:red;margin-left:2cm">Inline styling h1 heading</h1>
+            <h2 style="color:red;margin-left:4cm">Inline h2 subheading </h2>
+            <p style="text-indent:2cm;color:darkred; margin-left:6cm">Inline Paragraph 1</p>
+            <p style="text-indent:2cm;color:darkred; margin-left:6cm">Inline Paragraph 2</p>
+            <h2 style="color:red;margin-left:4cm">Inline h2 subheading</h2>
+            <p style="text-indent:2cm;color:darkred; margin-left:6cm">Inline Paragraph 1</p>
+        </div>
+        <!-- Embedded Version-->
+        <div class="item">
+            <h1 class="h1style">Embedded styling h1 heading</h1>
+            <h2 class="h2style">Embedded styling h2 subheading</h2>
+            <p class="pstyle">Embedded Paragraph 1</p>
+            <p class="pstyle">Embedded Paragrah 2</p>
+            <h2 class="h2style">Embedded styling h2 subheading</h2>
+            <p class="pstyle">Embedded Paragraph 1</p>
+        </div>
+
+        <div class="item">
+            <h1 class="h1ex"> External styling h1 heading</h1>
+            <h2 class="h2ex"> External styling h2 subheading</h2>
+            <p class="pex">External Paragraph 1</p>
+            <p class="pex">External Paragraph 2</p>
+            <h2 class="h2ex"> External styling h2 subheading</h2>
+            <p style="text-indent:2cm;color:darkred; margin-left:6cm">Inline Paragraph 1</p>
+        </div>
+    </div>
+</div>
+
+<div>
+    <h1>Exercise 4</h1>
+    <div class="item">
+        <a href="./cw02_ex4.html"><p class="centext" style="font-size: larger;"> Click Here!</p></a>>
+    </div>
+</div>
+
+<div>
+    <h1> Exercise 5</h1>
+    <div class="item">
+        <a href="./cw02_ex5.html"><p class="centext" style="font-size: larger;"> Click Here!</p></a>>
+    </div>
+</div>
+
+<div>
+    <h1>Exercise 6</h1>
+    <div class="ex6">
+        <p style="margin-left: 40px; margin-right: 40px">HTML will provide the basic structure of the site/page, which can be further enhanced visually and aurally with CSS.
+            I believe their should be an underlying structure to the site/pages but am also a fan of allowing departments, teachers, instructors
+        and so on to have some ability to customize their respective pages aesthetics i.e heavy use of external style sheets </p>
+        <hr>
+        <h3 class="centext"> Tags To Use </h3>
+        <ol>
+            <li>
+                <dl>
+                    <dt>&lt;div&gt;</dt>
+                    <dd>Helps separate the different parts and components of a web page. 
+                        Useful for grouping gvarious HTML tags so that the relevant setions can be created and style can be applied to them</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>&lt;h1, h2, h3, ... h6&gt;</dt>
+                    <dd>Headings highlight the important topic and structure of the page. Used to create headings in descending order of importantance
+                        where h6 is least important. So teachers could place a h1 heading for assignment due dates at the top of the page, indiciating that information is most important.
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>&lt;p&gt;</dt>
+                    <dd>The paragraph tags is used to define paragraph content in the html document.
+                        Internet browsers automatically add white space before and after blocks of text contained in the pargraph tag
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>&lt;ul&gt; & &lt;ol&gt;</dt>
+                    <dd> List tags are a must for anyone wanting to display information as a list.
+                        Unordered list items can be displayed in bullet points using the &lt;ul &gt;tag.
+                        Ordered items, where the content of the data has some inherent order, can be displayed in
+                        ascending or descending order using the &lt;ul &gt; tag </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;a&gt;</dt>
+                    <dd>
+                        Employees will definitely want to prove links on the website. The anchor tag is used to define the beginning and end of a  hyperlink text.
+                        Useful for linking from one page to another.
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;img&gt;</dt>
+                    <dd>
+                        Used to embed an image to an HTML page. 
+                        Useful for displaying pictures of teachers, students, maps, school events, and so on.
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;table&gt;</dt>
+                    <dd>
+                        A block element that is used to create a table. So if teachers want to represent some data in a tabular layout, 
+                        this is necessary. For example, a calendar with columns containing a day of the week, and and the cells in rows can contain information about upcoming exams or assignments.
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;hr&gt;</dt>
+                    <dd>
+                        The horizontal rule tag  inserts a thematic break in an html page. Useful for visually dividing/separating sections of a document. 
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;b&gt;</dt>
+                    <dd>
+                        The bold tag can be used to further emphasize important textual information. 
+                    </dd>
+                </dl>
+            </li>
+
+            <li>
+                <dl>
+                    <dt>&lt;br&gt;</dt>
+                    <dd>
+                        This tag will show a blank line. Good for breaking up sections in pages that arent paragraphs. 
+                    </dd>
+                </dl>
+            </li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>
