@@ -27,9 +27,10 @@ main {
     border: 4px solid gray;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
 
-div#content {
+div#review_container{
     width: 550px;
     float: left;
     overflow: hidden;
@@ -79,5 +80,43 @@ p.critic_info {
 
 .critic_info span {
     font-style: italic;
+}
+
+div#gen_overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-family: Arial, sans-serif;
+    float: right;
+}
+
+#gen_overview ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 10px;
+}
+
+#gen_overview dl dt {
+    font-weight: bolder;
+    margin-top: 1em;
+}
+#gen_overview img {
+    clear: right;
+}
+
+div#bottom_pages {
+    text-align: center;
+    background-color: #a2b964;
+    padding: 5px;
+    clear: both;
+}
+
+#valid {
+    position: fixed; 
+    bottom: 0px;
+    right: 0px;
+}
+
+#valid p {
+    margin: 2px 2px;
 }
 
