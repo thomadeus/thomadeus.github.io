@@ -1,0 +1,21 @@
+img.expectedoutput, .expectedoutput img, .outputimagelist img {
+	width: 95%;
+}
+
+.pagestart {
+	page-break-before: always;
+}
+
+.w3c, #w3c {
+	display: none;
+}
+
+.answer {
+	display: block;
+}
+
+.exam {
+	margin-top: 0px;
+	padding-top: 0px;
+	page-break-before: always;
+}

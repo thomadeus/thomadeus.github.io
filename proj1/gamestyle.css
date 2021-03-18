@@ -1,0 +1,61 @@
+main {
+    width: 1000px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#db {
+    background-color: #1d2675;
+}
+#card_master {
+    border: 3px groove white;
+    margin: 0 auto;
+    display: flex;
+}
+
+#ez_qs {
+    float: left;
+}
+
+#ez_qs table tr td {
+    background-color: #1d2675;
+    width: 275px;
+    height:150px;
+    padding: 8px;
+    border:  #1d2675 groove 1px;
+    text-align: center;
+    color: #f8de41;
+}
+
+.show,.answer {display:none;}
+
+.show:checked~.answer{display:block}
+
+.answer {
+    font-family:  Marker Felt, fantasy;
+    font-size: 22px;
+    font-style: italic;
+}
+.q_text {
+    font-family:  Marker Felt, fantasy;
+    font-size: 22px;
+}
+
+#med_qs {
+    float: left;
+}
+
+#med_qs table tr td {
+    background-color: #ff8352;
+    width: 275px;
+    height:150px;
+    padding: 8px;
+    border:#ff8352 groove 1px;
+    text-align: center;
+    color: #1d2675 ;
+}
+
+#hard_qs {
+
+}

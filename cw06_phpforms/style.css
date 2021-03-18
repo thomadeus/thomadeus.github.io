@@ -1,0 +1,218 @@
+body {
+	font-family: Garamond, "Times New Roman", serif;
+	font-size: 13pt;
+	background-color: white;
+	color: black;
+}
+
+.comment {
+	color: #006600;
+}
+
+.credit {
+	font-style: italic;
+	text-align: center;
+}
+
+h1 {
+	font-size: 18pt;
+	text-align: center;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 16pt;
+	padding-top: 3em;
+}
+
+h3 {
+	margin: 0px;
+	text-align: center;
+}
+
+h1,h2 {
+	font-family: "Arial", sans-serif;
+	margin-top: 18px;
+	margin-bottom: 3px;
+}
+
+hr.outputseparator {
+	color: black;
+	background-color: black;
+	height: 10px;
+	width: 100%;
+	
+}
+
+pre {
+	background-color: #F8F8FF;
+	border: 1px dashed blue;
+	padding: 0.5em;
+}
+
+a img {
+	border: 0px;
+}
+
+li {
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+}
+
+.outputimagelist {
+	border-bottom: 10px solid black;
+	border-top: 10px solid black;
+	list-style-type: none;
+	padding-left: 0em;
+}
+
+.outputimagelist li, .outputimagelist li img {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+p {
+	margin-bottom: 12px;
+	margin-top: 12px;
+	text-align: justify;
+	page-break-inside: avoid;
+}
+
+pre em, code em {
+	background-color: #FFFF66;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.boxed {
+	border: 1px solid black;
+}
+
+.expectedoutput, .expectedoutput p {
+	text-align: center;
+	line-height: 1em;
+	padding: 0px;
+}
+
+.expectedoutput img {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+	border: 0px;
+	/*width: 100%; oh marty, what is this all about! */
+}
+
+ul,ol {
+	margin-top: 9px;
+	clear: both;
+}
+
+.advice {
+	border: 1px solid gray;
+	background-color: #F0F0F0;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-style: italic;
+}
+
+.answer {
+	border: 1px dashed blue;
+	background-color: #EEEEFF;
+	display: none;
+}
+
+.command {
+	font-weight: bold;
+}
+
+.command, .output {
+	margin-left: 1em;
+}
+
+.exam {
+	margin-top: 2em;
+}
+
+.figure, .expectedoutput {
+	text-align: center;
+}
+
+.grades {
+	padding-right: 50px;
+}
+
+.paramtable {
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+.paramtable td, .paramtable th {
+	border: 1px solid gray;
+	padding: 0.25em;
+}
+
+.sqltable td, .sqltable th {
+	border: 2px solid gray;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sqltable th {
+	background-color: #EEEEEE;
+}
+
+.tall p {
+	line-height: 3em;
+}
+
+.w3c {
+	text-align: right;
+}
+
+.textoutput {
+	margin: 1em 2em;
+}
+
+table.sqltable {
+	border-collapse: collapse;
+	display: inline;
+	font-size: smaller;
+	margin-left: 1em;
+}
+
+.sqlwide td, .sqlwide th {
+	width: 30%;
+}
+
+.sqltable caption {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.syntaxtemplate, .placeholder {
+	font-style: italic; font-family: "Arial", sans-serif; color: #000044; letter-spacing: 0.0em;
+}
+
+var {
+	font-family: serif;
+}
+
+.zebrastripe {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.queries {
+	list-style-type: lower-alpha;
+}
+
+.queries li {
+	margin-bottom: 2em;
+}

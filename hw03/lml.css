@@ -1,0 +1,164 @@
+/*
+ Assignment 03: LML
+You should link to this provided stylesheet from all of your pages.
+You should not need to modify this file.  Your pages should work with it as-is.
+*/
+
+* {
+	font-size: 13pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+
+a {
+	color: #F44;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #FFA;
+}
+
+a img {
+	border: none;
+	margin-right: 1em;
+}
+
+#bannerarea {
+	background-image: url("./banner_bg.png");
+	background-repeat: repeat-x;
+	margin-bottom: 5em;
+	width: 100%;
+	height: 115px;
+	color: black;
+	font-style: italic;
+	text-align: left;
+	/* float:left; */
+	
+}
+#bannerarea img {
+	display:block;
+	margin: auto;
+	height: 110px;
+}
+
+#bottom a {
+    float: right;
+}
+
+
+#welcome li {
+	margin-top: 1em;
+}
+
+body {
+    
+	background-color: white;
+	/* padding-left: 1em; */
+	margin: 0px 0px 8px 0px;
+    /* padding-bottom: 100px; */
+}
+
+body > div, form {
+	overflow: hidden;
+	width: 35em;
+}
+
+div {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 900px;
+}
+
+div#bottom {
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+    bottom: 2px;
+}
+
+/* form styles */
+fieldset {
+	background-color: #c5c5f8; 
+	border: 3px outset gray;
+	border-radius: 10px;
+}
+
+/* the bold text labels to the leoft f each form field */
+fieldset strong,
+ul strong,
+fieldset label.left,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+
+
+h1 {
+	margin-top: 0em;
+}
+
+input[type="submit"] {
+	margin-top: 2em;
+	/* background-color: #FAA; */
+	background-color: #fa4377;
+	font-size: 120%;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+legend {
+	margin-bottom: 1em;
+	background-color: white;
+	border: 2px outset gray;
+	border-radius: 5px;
+	padding: 0.2em;
+}
+
+
+img.small {
+	height: 50px; width: 50px;
+}
+
+.match {
+	margin-bottom: 1em;
+	border: 4px outset #4361ee;
+	border-radius: 4px;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	height: 165px;
+}
+
+.match img {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 3em;
+}
+
+.match p {
+	background-color:#FEB1C6;
+	font-weight: bold;
+	/* background-color: #E0E0FF; */
+	
+}
+
+.match ul {
+	padding-left: 160px;
+}
+
+.match div {
+	overflow: unset;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0em;
+}
+
+ul li a img {
+	vertical-align: middle;
+}
+
+.pleft {
+	padding-left: 1em;
+}
